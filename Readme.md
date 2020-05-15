@@ -18,6 +18,6 @@ Install the extension as any other extension.
 After filling out the new field, you are able to output it with
 
 ```
-<f:debug>{newsItem.txNewsSubheadline}</f:debug>
-<f:debug>{newsItem.subheadline}</f:debug>
+<f:debug>{newsItem.txNewsArtworkdataUid}</f:debug>
+<f:debug>{newsItem.ArtworkdataUid}</f:debug>
 ```

@@ -12,7 +12,7 @@ class News extends \GeorgRinger\News\Domain\Model\News {
     /**
      * @return string
      */
-    public function getTxNewsArtworkdataUid()
+    public function get()
     {
         return $this->txNewsArtworkdataUid;
     }
