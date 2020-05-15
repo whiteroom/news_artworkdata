@@ -1,10 +1,10 @@
 # TYPO3 CMS Extension ``news_subheadline``
 
-This extension extends the news record by a subheadline text field.
+This extension extends the news record by a artwork data.
 
 ## Requirements
 
-- TYPO3 CMS 7.6.0-8.7LTS
+- TYPO3 CMS 7.6.0-9.5LTS
 - EXT:news 3.2.5+
 - License: GPL 2+
 
@@ -12,7 +12,6 @@ This extension extends the news record by a subheadline text field.
 
 Install the extension as any other extension.
 
-If you use composer, use ` composer requite georgringer/news-subheadline`.
 
 ## Usage
 

@@ -1,36 +1,36 @@
 <?php
 
-namespace GeorgRinger\NewsSubheadline\Domain\Model;
+namespace Whiteroom\NewsArtworkdata\Domain\Model;
 
 class News extends \GeorgRinger\News\Domain\Model\News {
 
     /**
      * @var string
      */
-    protected $txNewsSubheadline;
+    protected $txNewsArtworkdata;
 
     /**
      * @return string
      */
-    public function getTxNewsSubheadline()
+    public function getTxNewsArtworkdataUid()
     {
-        return $this->txNewsSubheadline;
+        return $this->txNewsArtworkdataUid;
     }
 
     /**
      * @return string
      */
-    public function getSubheadline()
+    public function getArtworkdataUid()
     {
-        return $this->txNewsSubheadline;
+        return $this->txNewsArtworkdataUid;
     }
 
     /**
-     * @param string $txNewsSubheadline
+     * @param string $txNewsArtworkdataUid
      */
-    public function setTxNewsSubheadline($txNewsSubheadline)
+    public function setTxNewsArtworkdataUid($txNewsArtworkdataUid)
     {
-        $this->txNewsSubheadline = $txNewsSubheadline;
+        $this->txNewsArtworkdataUid = $txNewsArtworkdataUid;
     }
 
 }
