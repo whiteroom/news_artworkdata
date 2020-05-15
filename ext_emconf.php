@@ -1,7 +1,7 @@
 <?php
 
 $EM_CONF[$_EXTKEY] = array(
-    'title' => 'Extend EXT:news',
+    'title' => 'whiteroom extended news data',
     'description' => 'Extend news by artwork data',
     'category' => 'fe',
     'author' => 'Daniel Schoeneck',

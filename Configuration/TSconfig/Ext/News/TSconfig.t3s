@@ -1,0 +1,12 @@
+tx_news{
+	
+	module {		
+		
+		columns = categories,notes,uid,datetime,archive,tags,tx_news_artworkdata_uid
+		#controlPanels = 1
+		#localizationView = 0
+	
+	}
+}
+
+
